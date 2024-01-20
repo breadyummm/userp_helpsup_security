@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">securty_helpsup</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+</string>
+    <string name="pass_req">Your password must be at least 8 letters </string>
+
+    <string name="help_secu">We recommend you review your info and add extra login protection to your account. Accurate info will help us connect
+    if there's ever a security issue with your account.</string>
+
+    <string name="up_email">Is this still your email? Make sure your contact details are correct to help easily resset your passworkd, get notifications,
+and find friends.\nUpdate your email if needed.</string>
+    <string name="up_mn">Is this still your mobile number? Make sure your contact details are correct to help easily resset your passworkd, get notifications,
+and find friends.\nUpdate your mobile number if needed. </string>
+    <string name="rep_prob">When reporting an issue, essential details about your device, account, and the app are automatically included in the report to aid in understanding and resolving the problem.\n\nTo expedite the resolution, you can assist by sending comprehensive logs and diagnostics, including user activity logs, network logs, crash logs, and memory dumps associated with WeConnect.\n\nRest assured, the information in this report will only be used to address the reported issue and will not be used for other purposes. </string>
+    <string name="how_g">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  </string>
+
+
+</resources>

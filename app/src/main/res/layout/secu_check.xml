@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/BbackButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="20dp"
+            android:contentDescription="return button"
+            android:src="@drawable/back" />
+
+
+        <TextView
+            android:id="@+id/ps_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="-28dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="28dp"
+            android:layout_toEndOf="@id/BbackButton"
+            android:fontFamily="@font/nanami"
+            android:text="Security Checkup"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+    </RelativeLayout>
+
+
+    <View
+        android:layout_width="476dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="#D08B8B8B" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/s_cu_icn" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nanami"
+        android:text="Help secure your account"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:textSize="25sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_regular"
+        android:text="@string/help_secu"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:textSize="14sp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/secu_btn1"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        app:cardBackgroundColor="#00000000"
+        app:cardElevation="0dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/top_corner">
+
+            <TextView
+                android:id="@+id/su_pass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/nanami"
+                android:padding="2dp"
+                android:text="Password"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/su_pass"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:paddingBottom="5dp"
+                android:text="Create a stronger password"
+                android:textAlignment="textStart"
+                android:textSize="11sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerInParent="true"
+                android:layout_marginEnd="20dp"
+                android:src="@drawable/forward" />
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <View
+        android:layout_width="360dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:background="@color/dg_ol" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/secu_btn2"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        app:cardBackgroundColor="#00000000"
+        app:cardElevation="0dp"
+        android:layout_gravity="center">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#E7F7E1">
+
+            <TextView
+                android:id="@+id/su_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/nanami"
+                android:padding="2dp"
+                android:text="Email"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/su_email"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:paddingBottom="5dp"
+                android:text="Check that your email is correct"
+                android:textAlignment="textStart"
+                android:textSize="11sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerInParent="true"
+                android:layout_marginEnd="20dp"
+                android:src="@drawable/forward" />
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <View
+        android:layout_width="360dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:background="@color/dg_ol" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/secu_btn3"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        app:cardBackgroundColor="#00000000"
+        app:cardElevation="0dp"
+        android:layout_gravity="center">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bot_corner">
+
+            <TextView
+                android:id="@+id/su_m_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/nanami"
+                android:padding="2dp"
+                android:text="Mobile Number"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/su_m_num"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:paddingBottom="15dp"
+                android:text="Check that your mobile number is correct"
+                android:textAlignment="textStart"
+                android:textSize="11sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerInParent="true"
+                android:layout_marginEnd="20dp"
+                android:src="@drawable/forward" />
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</LinearLayout>
